@@ -1,0 +1,16 @@
+import time
+def seacher():
+    book = "harry sir is my first sir of coding "
+    time.sleep(3)
+
+    while(1):
+        text = yield
+        if text in book:
+            print("your text is in the book")
+        else:
+            print("your text is not in the book")
+
+son = seacher()
+next(son)
+sou = input("enter here your word")
+son.send(sou)
