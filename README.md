@@ -1,0 +1,1 @@
+# self-find-word-with-generator
